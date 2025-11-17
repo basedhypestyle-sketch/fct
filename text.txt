@@ -1,9 +1,0 @@
-git --version
-https://git-scm.com/download/win
-npm install
-npm install -g hardhat
-npx hardhat compile
-npx hardhat run scripts/deploy.js --network base
-npm run dev
-http://localhost:3000
-npm run build
