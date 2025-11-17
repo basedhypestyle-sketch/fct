@@ -1,0 +1,27 @@
+{
+  "name": "fid-ghost-final-farcaster",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network base"
+  },
+  "dependencies": {
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "axios": "1.6.0",
+    "@lighthouse-web3/sdk": "^1.0.0",
+    "node-fetch": "2.6.7",
+    "ethers": "6.6.0",
+    "@farcaster/connect-kit": "^0.0.1"
+  },
+  "devDependencies": {
+    "hardhat": "2.18.0",
+    "@nomiclabs/hardhat-ethers": "2.2.0",
+    "@openzeppelin/contracts": "4.9.0"
+  }
+}
